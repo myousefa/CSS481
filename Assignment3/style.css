@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-image: url(https://i.gifer.com/Yc5M.gif);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:top;
+}
+
+.pizzaOptions{
+    margin : auto;
+    font-size: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border : 5px solid red;
+    background-color: orange;
+
+    width : 800px;
+    height : 225px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content = "width=device-width, initial scale = 1.0">
+        <title>Pizza Builder</title>
+        <link rel="stylesheet" href="style.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <h1><i> Pizza Builder </i></h1>
+
+            <div class="pizzaOptions">
+                <!-- Size -->
+                <label for="Size">Choose a Pizza Size:</label>
+                <select name="Size" id="Size">
+                    <option value="small">Small (10")</option>
+                    <option value="medium">Medium (12")</option>
+                    <option value="large">Large (14")</option>
+                </select>
+                <br>
+                <!-- Size -->
+
+                <!-- Crust -->
+                <label for="Crust">Type of Crust:</label>
+                <select name="Crust" id="Crust">
+                <option value="thin">Thin</option>
+                <option value="regular">Regular</option>
+                <option value="deep">Deep Dish</option>
+                </select>
+                <br>
+                <!-- Crust -->
+
+                <!-- Sauce -->
+                <label for="Sauce">Type of Sauce:</label>
+                <select name="Sauce" id="Sauce">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="white">White</option>
+                </select>
+                <br>
+                <!-- Sauce -->
+
+                <!-- Cheese -->
+                <label for="Cheese">Type of Cheese:</label>
+                <select name="Cheese" id="Cheese">
+                <option value="Mozeralla">Mozeralla</option>
+                </select>
+                <br>
+                <!-- Cheese -->
+
+                <!-- Topping v2 -->
+                <label for="Topping">Type of Topping (up to 3 toppings):</label>
+                <input type="checkbox" id="topping1" name="topping1" value="Bike">
+                <label for="topping1"> pepperoni</label>
+                <input type="checkbox" id="topping2" name="topping2" value="Car">
+                <label for="topping2"> sausage</label>
+                <input type="checkbox" id="topping3" name="topping3" value="Boat">
+                <label for="topping3"> onion</label>
+                <input type="checkbox" id="topping4" name="topping4" value="Bike">
+                <label for="topping4"> garlic</label>
+                <input type="checkbox" id="topping5" name="topping5" value="Car">
+                <label for="topping5"> green papper</label>
+                <input type="checkbox" id="topping6" name="topping6" value="Car">
+                <label for="topping6"> mushrooms</label>
+                <input type="checkbox" id="topping7" name="topping7" value="Boat">
+                <label for="topping7"> black olives</label>
+                <br>
+                <!-- Topping v2 -->
+                </form>
+                <input id="submit" type="button" value="Place Order" onclick="placeOrder();" />
+            </div>  
+    </body>
